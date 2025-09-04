@@ -1,0 +1,18 @@
+[project]
+name = "dicto"
+version = "0.1.0"
+description = "Dicto é um SaaS gamificado de autoestudo em oratória e apresentações. O usuário escolhe um tema, grava sua fala e recebe feedback automático com base em inteligência artificial: velocidade de fala (palavras por minuto), vícios de linguagem, pausas e clareza. O sistema gera dicas práticas como “Você falou rápido demais, tente reduzir o ritmo” ou “Usou 15 vezes a palavra ‘tipo’, substitua por pausas curtas”.  A experiência é leve e divertida, no estilo Duolingo."
+authors = [
+    {name = "thiagozaneti",email = "dotinha0203@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "config (>=0.5.1,<0.6.0)",
+    "openai-whisper (>=20250625,<20250626)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
